@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cinzel&display=swap');
+
+
+body{
+    background-color: rgba(0, 0, 0, 0.838);
+    color: white;
+    font-family: 'Cinzel', serif;
+}
+section{
+    
+    width: 50%;
+    height: 700px;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+section .how{
+    border: 1px solid white;
+    width: 50%; 
+    height: 130px;
+    text-align: center;
+    margin-left: 25%;
+}
+
+.how label {
+    font-size: 20px;
+}
+h1{ 
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+#result{
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    width: 50%; 
+    height: 100px;
+    margin-left: 25%;
+}
+#result p{
+font-size: 30PX;
+}
+
+#bilder{
+    text-align: center;
+     margin-right: 2%;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-left: 3%; 
+   
+}
+
+.restart{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}

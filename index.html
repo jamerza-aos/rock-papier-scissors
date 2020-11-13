@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    
+<h1>rock. papier. scissors</h1>
+<section>
+    <div class="how">
+        <p>How many round?</p>
+        <form>
+            <div id="rounds"> 
+            <input type="radio" name="rund" id="fünf" checked>
+            <label>5</label>
+            <input type="radio" name="rund" id="zehn">
+            <label>10</label>
+            <br>
+            <input type="radio" name="rund" id="fünfzehn">
+            <label>15</label>
+            <input type="radio" name="rund" id="zwanzig">
+            <label>20</label>
+            </div>
+        </form>
+    </div>
+    <div id="rounds-result">
+        <p id="rounds-min"></p>
+        <p id="result1" > /</p>
+        <p id="round-max"></p>
+    </div>
+    <div id="result">
+        <div id="wieder"></div>
+        <p id="userscour">0</p>
+        <p> :</p>
+        <p id="compscour">0</p>
+    </div>
+    <div id="play">
+        <p id="let">Let´s play</p>
+    </div>
+    <div id="bilder">
+         <img src="https://lh3.googleusercontent.com/proxy/MDmP-zhgZPWVcgA_jp81yh6k5nRh18TjJ4LVBF87zLbZRx7MNNisXrY1-XliawsS9Xbzu9YO9mK49-ANIb1BtHio5lf7alkRDujLuvC8nf21SJOpVClv1nZjjemM43bGI42kZEu2IJ2oApzcMmiuV78MEx7or46BiJw" alt="" id="rock" onclick="Game(1)">
+        <img src="https://www3.bostonglobe.com//rw/Boston/2011-2020/WebGraphics/Metro/BostonGlobe.com/2018/05/rockpaperscissors/assets/paper--left.png" alt=""  id="paper" onclick="Game(2)">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSzclrx61WgtnhlTYSUDqjjYw1N8PggXWDJsg&usqp=CAU" alt=""  
+        id="scissors" onclick="Game(3)"> 
+        
+    </div>
+    <p id="make">Make your move</p>
+    <a href="#" class="restart">restart</a>
+</section>
+
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
